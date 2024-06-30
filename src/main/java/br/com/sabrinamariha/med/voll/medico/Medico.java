@@ -24,7 +24,7 @@ public class Medico {
     private String crm;
     @Enumerated(EnumType.STRING)
     private Especialidade especialidade;
-    @Embedded //faz parte da mesma tabela médico
+    @Embedded //faz parte da mesma tabela médicos
     private Endereco endereco;
 
     public Medico(DadosCadastroMedico dados) {
